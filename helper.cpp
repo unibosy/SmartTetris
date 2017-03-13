@@ -32,7 +32,10 @@ Helper* Helper::instance()
   return helper; 
 }
 
-
+double random(double start, double end)
+{
+  return start + (end - start)*rand() / (RAND_MAX + 1.0);
+}
 int Helper::getRendomNum(const int start, const int end) const
 {
   unsigned seed(time(NULL));

@@ -1,5 +1,7 @@
 #include "smarttetris.h"
 
+#include "helper.h"
+
 SmartTetris::SmartTetris(QWidget *parent)
     : QMainWindow(parent)
 {
@@ -7,11 +9,6 @@ SmartTetris::SmartTetris(QWidget *parent)
 }
 
 SmartTetris::~SmartTetris()
-{
-
-}
-//I,J,L,O,S,T,Z Reference to Wiki
-int SmartTetris::generateBlock()
 {
 
 }

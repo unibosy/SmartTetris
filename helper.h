@@ -1,4 +1,5 @@
 #pragma once
+#include "commondef.h"
 
 //single instance
 class Helper {
